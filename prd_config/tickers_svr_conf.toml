@@ -1,0 +1,8 @@
+host = "172.17.28.29"
+port = 8083
+
+[influx_conf]
+    org = "expwallet_trending"
+    bucket = "expwallet_trending"
+    token = "suoouUloipXlnSlRSirS7cEVpToMuzyIgOw0bwI0xFZZIYbmkvJj1TtgTtuA1Ec2Dh8DhxEmoUW1_iYuIdBmog=="
+    server_url = "https://auto-n25-04-03-8086.ams.op-mobile.opera.com"

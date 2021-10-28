@@ -1,0 +1,19 @@
+[bn_api_conf]
+    scheme = "wss"
+    base_url = "stream.binance.com:9443"
+    end_points = [
+        "/ws/usdtbrl@ticker",
+        "/ws/usdtngn@ticker",
+        "/ws/btcusdt@ticker",
+        "/ws/ethusdt@ticker",
+        "/ws/btcbrl@ticker",
+        "/ws/btcngn@ticker",
+        "/ws/btcusdt@aggTrade",
+        "/ws/ethusdt@aggTrade",
+        "/ws/btcusdt@kline_1m",
+        "/ws/ethusdt@kline_1m"
+    ]
+
+[kafka_conf]
+    brokers = ["172.17.30.122:9092", "172.17.30.123:9092", "172.17.30.124:9092", "172.17.30.125:9092", "172.17.30.126:9092", "172.17.30.127:9092", "172.17.30.128:9092", "172.17.30.129:9092", "172.17.30.130:9092", "172.17.30.131:9092", "172.17.31.120:9092", "172.17.30.91:9092", "172.17.30.93:9092", "172.17.30.94:9092"]
+    topic = "ticker_trending"

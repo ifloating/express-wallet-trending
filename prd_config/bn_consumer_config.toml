@@ -1,0 +1,10 @@
+[kafka_conf]
+    brokers = ["172.17.30.122:9092", "172.17.30.123:9092", "172.17.30.124:9092", "172.17.30.125:9092", "172.17.30.126:9092", "172.17.30.127:9092", "172.17.30.128:9092", "172.17.30.129:9092", "172.17.30.130:9092", "172.17.30.131:9092", "172.17.31.120:9092", "172.17.30.91:9092", "172.17.30.93:9092", "172.17.30.94:9092"]
+    topics = ["ticker_trending"]
+    group_id = "trending"
+
+[influx_conf]
+    org = "expwallet_trending"
+    bucket = "expwallet_trending"
+    token = "suoouUloipXlnSlRSirS7cEVpToMuzyIgOw0bwI0xFZZIYbmkvJj1TtgTtuA1Ec2Dh8DhxEmoUW1_iYuIdBmog=="
+    server_url = "https://auto-n25-04-03-8086.ams.op-mobile.opera.com"

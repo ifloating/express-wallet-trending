@@ -1,0 +1,7 @@
+.idea/
+*.iml
+bn_consumer
+bn_ws_svr
+tickers_server
+historical_tickers
+
